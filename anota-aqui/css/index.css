@@ -1,0 +1,49 @@
+/* 
+    Created on : 19/09/2019, 10:22:33
+    Author     : JVasconcelosSilva - anota-gols
+*/
+
+body{
+    height: 100%;
+}
+
+/*Responsive*/
+@media screen and(min-width: 768px){
+    .col-md-4.mb-3.mb-md-0{
+        margin-left: 200px;
+    }
+}
+
+.btn.btn-outline-secondary{
+    background-color: #18BC9C;
+    border-color: #18BC9C;
+    color: #ffffff;
+}
+
+#user{
+    border-right-color: #ffffff;
+}
+
+.input-group.mb-3{
+    width: 110px;
+}
+
+.btn.btn-outline-secondary.dropdown-toggle.dropdown-toggle-split{
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+
+#menuPesquisa{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.d-none.d-sm-inline-block.form-inline.mr-auto.ml-md-3.my-2.my-md-0.mw-100.navbar-search{
+    margin-left: 0px!important;
+}
+
+
+
+
+
+

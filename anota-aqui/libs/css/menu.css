@@ -1,0 +1,25 @@
+/* 
+    Created on : 19/09/2019, 09:00:41
+    Author     : JVasconcelosSilva - anota-gols
+*/
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar h3{
+    color: #ffffff;
+}
+
+/*Resposive*/
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        height: auto;
+    }
+}

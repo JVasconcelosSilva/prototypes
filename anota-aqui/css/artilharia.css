@@ -1,0 +1,91 @@
+/*Button with dropdown*/
+#menuPesquisa{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.d-none.d-sm-inline-block.form-inline.mr-auto.ml-md-3.my-2.my-md-0.mw-100.navbar-search{
+    margin-left: 0px!important;
+}
+
+.btn.btn-outline-secondary{
+    background-color: #18BC9C;
+    border-color: #18BC9C;
+    color: #ffffff;
+}
+
+#user{
+    border-right-color: #ffffff;
+}
+
+.input-group.mb-3{
+    width: 110px;
+}
+
+.btn.btn-outline-secondary.dropdown-toggle.dropdown-toggle-split{
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+
+
+.card{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    align-self: center;
+}
+.card-body{
+    text-align: left;
+}
+.card-body.btn-secondary{
+    text-align: right;
+}
+.col-md-1{
+    align-self: center;
+    text-align: right;
+}
+.col-md-2{
+    align-self: center;
+    margin-right: 20px;
+}
+.col-md-2 button{
+    align-self: center;
+    margin-right: 15px;
+    padding-right: 15px;
+}
+h2{
+    margin-bottom: 30px;
+}
+footer{
+    margin-top: 30px;
+}
+#addJogador{
+    margin-bottom: 30px;
+}
+.gols{
+    margin-right: 30px;
+    align-self: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+form{
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+.col-md-4.mx-auto{
+    align-self: center;
+}
+
+.mt-4, .my-4 {
+    margin-top: 0px!important;
+    margin-bottom: 0px;
+}
+.colocacao.mx-auto{
+    margin-bottom:0px;
+
+}
+.ml-auto, .mx-auto {
+    margin-left: 0px!important;
+}

@@ -1,0 +1,51 @@
+/*Dropdown menu*/
+.dropdown-menu.dropdown-menu-right{
+    width: 200%;
+}
+
+#menuPesquisa{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.d-none.d-sm-inline-block.form-inline.mr-auto.ml-md-3.my-2.my-md-0.mw-100.navbar-search{
+    margin-left: 0px!important;
+}
+
+.btn.btn-outline-secondary{
+    background-color: #18BC9C;
+    border-color: #18BC9C;
+    color: #ffffff;
+}
+
+#user{
+    border-right-color: #ffffff;
+}
+
+.input-group.mb-3{
+    width: 110px;
+}
+
+.btn.btn-outline-secondary.dropdown-toggle.dropdown-toggle-split{
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+/*-----*/
+
+
+.form-login{
+    width: 350px;
+}
+
+/*Resposive*/
+
+@media screen and (max-width: 268px){
+    body{
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width: 350px) {
+.form-login{
+    width: auto;
+}
+}
