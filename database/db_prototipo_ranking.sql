@@ -58,7 +58,7 @@ delete from Jogador where id_jogador in (4,5,6);
 
 select * from Jogador;
 
-create or replace view vw_ranking as;
+/*create or replace view vw_ranking as;*/
 
 -- Utilizar essa view para buscar o ranking com a classificação
 select row_number() over (order by qt_ponto desc), nm_jogador, qt_ponto, fk_Ranking_id_ranking from Jogador where fk_Ranking_id_ranking = 2;

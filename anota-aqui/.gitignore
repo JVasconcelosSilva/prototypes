@@ -73,3 +73,4 @@ vendor/monolog/monolog/tests/Monolog/Processor/MemoryUsageProcessorTest.php
 vendor/monolog/monolog/tests/Monolog/Processor/WebProcessorTest.php
 composer.json
 composer.lock
+/images
