@@ -59,16 +59,13 @@ if ($op == "Alterar") {
 </head>
 
 <body>
-    <h1>Test</h1>
-    <?= var_dump($infoUsuario) ?>
+    <h1>Teste perfil usuário</h1>
     <?php foreach ($infoUsuario as $usuario) { ?>
         <h4>Nome: <?= $usuario['nm_usuario'] ?></h4>
         <h4>Email: <?= $usuario['nm_email'] ?></h4>
     <?php } ?>
 
-    <!-- <form action="../../controller/Upload.php" method="post" enctype="multipart/form-data">
-  Select image to upload:
-  <input type="file" name="fileToUpload" id="fileToUpload"> -->
+    <!-- Botão imagem de usuário -> Start -->
     <?php if ($usuario['nm_caminho_foto'] != null) { ?>
         <button type="button" data-toggle="modal" data-target="#ExemploModalCentralizado"><img src="../../images/<?= $usuario['nm_caminho_foto'] ?>" style=" height:170px;
     width:auto;/*maintain aspect ratio*/
@@ -79,11 +76,13 @@ if ($op == "Alterar") {
     width:auto;/*maintain aspect ratio*/
     max-width:180px;"></button>
     <?php } ?>
-    <!-- <input type="submit" value="Upload Image" name="submit">
-</form> -->
+    <!-- Botão imagem de usuário -> End -->
 
+    <!-- Painel de conquistas -> Start -->
+    <?php $conquistas = $queryUsuario->getConquistas($_SESSION);?>
+    <!-- Painel de conquistas -> End -->
 
-    <!-- Start Modal -->
+    <!-- Modal de upload de imagem -> Start -->
     <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -110,6 +109,6 @@ if ($op == "Alterar") {
         </div>
     </div>
     </div>
-    <!-- End Modal -->
+    <!-- Modal de upload de imagem -> End -->
 
 </body>

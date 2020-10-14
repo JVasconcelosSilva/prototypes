@@ -166,4 +166,25 @@ class Usuario extends connection
         mysqli_query($con, $sql);
         $connection->CloseCon($con);
     }
+
+    /**
+     * getConquistas
+     *
+     * @param  mixed $id
+     * @return void
+     */
+    public function getConquistas($id)
+    {
+        // Consulta todas as informações do usuario para efetuar o login
+        $connection = new connection();
+        $con = $connection->OpenCon();
+
+        $query = "SELECT * FROM conquistas WHERE id_usuario = $id";
+
+        $result = mysqli_query($con, $query);
+
+        $connection->CloseCon($con);
+
+        return $result;
+    }
 }
